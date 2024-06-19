@@ -11,4 +11,10 @@ public class CalcTest {
         Addition add = new Addition();
         Assert.assertEquals(40, add.addition(10,30));
     }
+
+    @Test
+    public void testAddition2(){
+        Addition add = new Addition();
+        Assert.assertEquals(40, add.addition(10,30));
+    }
 }
